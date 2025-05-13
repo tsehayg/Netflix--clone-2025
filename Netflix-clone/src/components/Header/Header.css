@@ -1,0 +1,121 @@
+
+.header-outer-container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      /* background-color: rgb(20,20,20);  */
+    background-color: transparent;  
+    height: 10vh;
+    color: white;
+    transition: all 0.5%;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    
+
+}
+.header-container{
+width: 90%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.header-left ul{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+.header-left ul li{
+display: inline-block;
+margin: 10px 20px;
+ color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+.header-right ul{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+
+nav-black{
+    background-color:rgb(20,20,20);
+}
+    .header_outer_container {
+  width: 100%;
+  background-color: #000; /* Black background for contrast */
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+}
+
+.header_left ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.header_left li {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.header_left li img {
+  margin-right: 10px;
+}
+
+/* Header right icons styling */
+.header_right {
+  display: flex;
+  align-items: center;
+}
+
+.header_right ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header_right li {
+  margin-left: 20px;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.Header-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1; /* Send background image behind other elements */
+  opacity: 0.3; /* Optional: make it subtly background */
+}
